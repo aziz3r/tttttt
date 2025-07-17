@@ -1,0 +1,59 @@
+.home-page {
+  padding: 2rem;
+  background-color: #fff;
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  background: linear-gradient(to right, #f6f6f6, #fff);
+  padding: 4rem 2rem;
+  border-radius: 12px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #387581;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #2f5c66;
+}
+
+.highlight-products {
+  margin-top: 4rem;
+}
+
+.products-grid {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.product-card {
+  width: 200px;
+  height: 280px;
+  background-color: #eee;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

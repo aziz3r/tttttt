@@ -1,0 +1,121 @@
+/* ========== CONTAINER PRINCIPAL DE LA SIDEBAR ========== */
+.sidebar {
+  background-color: #3e3a3a;
+  color: white;
+  transition: width 0.3s ease;
+  overflow: hidden;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500vh;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+/* ========== ÉTATS OUVERT / FERMÉ ========== */
+.sidebar.open {
+  width: 200px;
+}
+
+.sidebar.closed {
+  width: 50;
+}
+
+/* ========== BOUTON DE TOGGLE ========== */
+.toggle-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* ========== STYLING DES BOUTONS DE LIENS ========== */
+.sidebar-btn {
+  margin: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: left;
+  background-color: #4a4a4a;
+  transition: background-color 0.3s, transform 0.2s;
+  cursor: pointer;
+}
+
+.sidebar-btn:hover {
+  background-color: #5c5c5c;
+  transform: scale(1.03);
+}
+
+.sidebar-btn.active {
+  background-color: #387581;
+  color: white;
+}
+
+/* ========== STYLING DES LIENS À L'INTÉRIEUR DES BOUTONS ========== */
+.sidebar-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar-btn a:visited {
+  color: white;
+}
+
+.sidebar-btn a:hover {
+  color: #ddd;
+}
+
+.sidebar-btn a:active {
+  color: white;
+}
+
+/* ========== BOUTON EN BAS DE LA SIDEBAR ========== */
+.bottom-button {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid #ffffff;
+}
+
+.bottom-button a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #444;
+  border-radius: 6px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.bottom-button a:hover {
+  background-color: #f39c12;
+}
+
+.search-container {
+  position: relative;
+  z-index: 2;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #999;
+  pointer-events: none;
+}
+
+.navbar-search {
+  padding: 8px 12px 8px 32px; /* espace à gauche pour l’icône */
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: white;
+  color: #333;
+  width: 200px;
+}
+

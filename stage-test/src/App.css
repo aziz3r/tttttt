@@ -1,0 +1,43 @@
+.app-layout {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+}
+
+.main-content {
+  margin-left: 220px; 
+  padding: 2rem;
+  flex: 1;
+  min-height: calc(100vh - 120px); 
+}
+
+
+
+
+#home {
+  background-color: #ffffff;
+  padding: 100px 20px;
+  min-height: 100vh;
+  scroll-margin-top: 100px;
+}
+
+#about {
+  background-color: #ffffff;
+  padding: 100px 20px;
+  min-height: 100vh;
+  scroll-margin-top: 100px;
+}
+
+#projects {
+  background-color: #ffffff;
+  padding: 100px 20px;
+  min-height: 100vh;
+  scroll-margin-top: 100px;
+}
+
+#contact {
+  background-color: #ffffff;
+  padding: 100px 20px;
+  min-height: 100vh;
+  scroll-margin-top: 100px;
+}
