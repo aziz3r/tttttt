@@ -68,7 +68,7 @@ overflow: hidden;
   z-index: 2;
 }
 
-/* 🎯 Style de la barre de recherche */
+
 .navbar-search {
   padding: 8px 12px;
   border: none;
@@ -82,5 +82,22 @@ overflow: hidden;
 .navbar-search:focus {
   outline: none;
   box-shadow: 0 0 5px #f39c12;
+}
+
+.language-switcher {
+  margin-left: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  z-index: 2;
+}
+
+.language-switcher {
+  margin-left: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  z-index: 2;
+
 }
 

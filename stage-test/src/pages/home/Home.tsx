@@ -1,47 +1,33 @@
 import React from 'react';
-import './Home.css'; // si tu veux du style
+import { useTranslation } from 'react-i18next';
+import './Home.css';
 
 const Home = () => {
+  const { t } = useTranslation();
+
   return (
     <main className="main-content">
       <section id="home">
-        <h1>Accueil</h1>
-        <p>
-          Bienvenue sur le projet de stage d'été réalisé par Aziz Baoueb. Ce site web a été conçu
-          pour explorer les bases du développement frontend avec React et tester différentes
-          fonctionnalités interactives.
-        </p>
+        <h1>{t('home.title')}</h1>
+        <p>{t('home.description')}</p>
       </section>
 
       <section id="about">
-        <h1>À propos</h1>
-        <p>
-          Ce projet a été développé pendant l'été 2025 dans le cadre d'un stage. L'objectif est de
-          se familiariser avec React, la structure des composants, le CSS personnalisé et la
-          navigation dynamique.
-        </p>
+        <h1>{t('about.title')}</h1>
+        <p>{t('about.description')}</p>
       </section>
 
       <section id="projects">
-        <h1>Projets</h1>
-        <p>
-          Le projet principal consiste à créer une architecture simple avec une sidebar, une barre
-          de navigation visuelle et des sections bien définies. Il s'agit d'un exercice pratique
-          pour comprendre le fonctionnement d'une application React.
-        </p>
+        <h1>{t('projects.title')}</h1>
+        <p>{t('projects.description')}</p>
       </section>
 
       <section id="contact">
-        <h1>Contact</h1>
-        <p>
-          Ce projet a été réalisé par Aziz Baoueb. Pour toute question ou retour, n'hésitez pas à le
-          contacter. Le site est en constante évolution et pourra intégrer d'autres fonctionnalités
-          à l'avenir.
-        </p>
+        <h1>{t('contact.title')}</h1>
+        <p>{t('contact.description')}</p>
       </section>
     </main>
   );
 };
 
 export default Home;
-

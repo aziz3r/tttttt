@@ -1,0 +1,18 @@
+{
+  "home": {
+    "title": "Accueil",
+    "description": "Bienvenue sur le projet de stage d'été réalisé par Aziz Baoueb. Ce site web a été conçu pour explorer les bases du développement frontend avec React et tester différentes fonctionnalités interactives."
+  },
+  "about": {
+    "title": "À propos",
+    "description": "Ce projet a été développé pendant l'été 2025 dans le cadre d'un stage. L'objectif est de se familiariser avec React, la structure des composants, le CSS personnalisé et la navigation dynamique."
+  },
+  "projects": {
+    "title": "Projets",
+    "description": "Le projet principal consiste à créer une architecture simple avec une sidebar, une barre de navigation visuelle et des sections bien définies. Il s'agit d'un exercice pratique pour comprendre le fonctionnement d'une application React."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Ce projet a été réalisé par Aziz Baoueb. Pour toute question ou retour, n'hésitez pas à le contacter. Le site est en constante évolution et pourra intégrer d'autres fonctionnalités à l'avenir."
+  }
+}
